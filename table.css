@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  table {
+    height: 100vh;
+    width: 100vw;
+    border-spacing: 10px;
+  }
+  
+  .first td {
+    background-color: yellow;
+    border-bottom: solid white;
+    width: 25%;
+  }
+
+  .second td {
+    background-color: rgb(173, 76, 76);
+    border-bottom: solid white;
+  }
+  .third td {
+    background-color: rgb(28, 122, 79);
+    border-bottom: solid white;
+  }
+
+  .four td {
+    background-color: black;
+    width: 25%;
+  }
