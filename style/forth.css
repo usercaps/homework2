@@ -1,0 +1,57 @@
+.body {
+    width: 100%;
+    height: 100vh;
+  }
+header {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    display: flex;
+    background-color: saddlebrown;
+    justify-content: space-between;
+    margin: auto;
+}
+/* https://developer.mozilla.org/ru/docs/Web/CSS/justify-content */
+
+header:hover {
+    background-color: red;
+}
+img {
+    display: block;
+    width: 100px;
+    height: 80%;
+    margin: auto;
+}
+p{
+    margin: 0;
+}
+.main{
+    margin: 0 15%;
+    display: flex;
+}
+.lorem{
+    width: 50%;
+    margin-left: 30px;
+    padding: 0 10px;
+    padding-top: 5%;
+    color: white;
+    background-color: #000;
+    margin-bottom: 50px;
+}
+.loren{
+    width: 50%;
+    padding: 0 10px;
+    padding-top: 5%;
+    margin-left: 0;
+    margin-bottom: 50px;
+  background-color: rgb(156, 62, 65);
+  color: black);
+}
+footer {
+    width: 100%;
+    height: 15%;
+    background-color: saddlebrown;
+}
+footer:hover{
+    background-color: red;
+}
